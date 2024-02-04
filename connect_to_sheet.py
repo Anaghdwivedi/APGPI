@@ -66,3 +66,6 @@ if len(job_title)!=0:
 
     # Call the function to append data to the CSV file
     append_to_csv(csv_file_path, data_to_append)
+    st.text('required output is :')
+    st.write(a[0])
+    
